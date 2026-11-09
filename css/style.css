@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #343530;
+    margin: 0;
+}
+
+.wrapper {
+    margin-top: 15px;
+    height: 100%;
+    width: 90%;
+    background-color: aliceblue;
+}
+
+.advertNav, .mainNav {
+    display: flex;
+    justify-content: center;
+}
+
+.advertNav {
+    background-color: #BEE759;
+    gap: 10px;
+}
+
+.mainNav {
+    background-color: aliceblue;
+}
+
+.advertUl {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+
+.advertLi {
+    display: inline;
+    list-style-type: none;
+}
+
+.advertLi img {
+    width: 18px;
+    object-fit: contain;
+}
