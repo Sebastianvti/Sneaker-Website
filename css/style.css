@@ -5,11 +5,16 @@ body {
     margin: 0;
 }
 
+li {
+    display: inline;
+    list-style-type: none;
+}
+
 .wrapper {
     margin-top: 15px;
     height: 100%;
     width: 90%;
-    background-color: aliceblue;
+    background-color: rgb(12, 14, 15);
 }
 
 .advertNav, .mainNav {
@@ -17,13 +22,38 @@ body {
     justify-content: center;
 }
 
+.mainNav {
+    height: 100%;
+    width: 60%
+}
+
+.mainUl {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLi img {
+    object-fit: contain;
+    width: 10px;
+}
+
 .advertNav {
     background-color: #BEE759;
     gap: 10px;
 }
 
-.mainNav {
+.navigationMain {
+    display: flex;
+    justify-content: space;
+    height: 50px;
     background-color: aliceblue;
+}
+
+.navigationMain img {
+    width: 10px;
+    object-fit: contain;
 }
 
 .advertUl {
@@ -32,11 +62,6 @@ body {
     display: flex;
     justify-content: space-between;
     /* gap: 15px; */
-}
-
-.advertLi {
-    display: inline;
-    list-style-type: none;
 }
 
 .advertLi img {
