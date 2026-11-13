@@ -138,7 +138,31 @@ li {
 
 .sponsorMain {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 60px;
+    align-items: center;
+    height: 90px;
     background-color: aliceblue;
+}
+
+.sponsorList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardMain {
+    padding-top: 10px;
+    background-color: aliceblue;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.card {
+    background-color: #BEE759;
+    height: 300px;
+    width: 25%;
+    border-radius: 15px;
 }
