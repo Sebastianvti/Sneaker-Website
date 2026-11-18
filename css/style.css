@@ -152,7 +152,7 @@ li {
 }
 
 .cardMain {
-    padding-top: 10px;
+    padding-top: 50px;
     background-color: aliceblue;
     height: 420px;
     display: flex;
@@ -205,21 +205,104 @@ li {
     display: flex;
     justify-content: space-evenly;
     background-color: aliceblue;
-    height: 250px;
+    height: 385px;
 }
 
 .shoeCard {
     width: 23%;
-    background-color: #BEE759;
+    /* background-color: #BEE759; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* .shoeCard img {
-   width: 100%;
-   object-fit: contain;
-} */
+.shoeCard img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.shoeInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shoeInfo p {
+    margin: 0;
+    font-size: 16.4px;
+}
 
 .shoeCardContainer {
     /* background-color: aliceblue; */
     width: 100%;
     height: 100px;
+}
+
+.rating {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    /* height: 50%; */
+}
+
+.rating p {
+    margin: 0;
+}
+
+.rating img {
+    width: 12px;
+    object-fit: contain;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+    color: darkgray;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.selectionBox {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.selectionBox img {
+    width: 40px;
+    object-fit: contain;
+}
+
+.first {
+    border: #343530, 2px, solid;
+}
+
+.selectMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    border: darkgray, 1.5px, solid;
+    color: gray;
+}
+
+.advertMain {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    background-color:aliceblue;
+    width: 100%;
+    height: 707px;
+}
+
+.advertFrame {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #BEE759;
+    width: 90%;
+    height: 100%;
 }
