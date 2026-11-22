@@ -461,3 +461,60 @@ li {
 .footerAbout p {
     color: aliceblue    ;
 }
+
+@media screen and (max-width: 440px) {
+  .advertNav, .mainNav, .navPurchase , .sponsorMain, .rating {
+    display: none;
+  }
+
+  .selectionBox img {
+    display: none;
+  }
+
+  .advertMain {
+    display: none;
+    height: 0;
+  }
+
+  .navPurchase {
+    gap: 18px
+  }
+
+  .navPurchase img {
+    width: 20px;
+  }
+  
+  .navPurchase p {
+    font-size: 20px;
+  }
+  .shoeCardsMain {
+    height: 275px;
+    padding-bottom: 20px;
+  }
+
+  .newsCaption {
+    height: 150px;
+  }
+
+  .newsCaption p{
+    margin-top: 6px;
+    font-size: 15px;
+  }
+
+  .bestSeller {
+    background-color: #bee759;
+  }
+  .cardMain {
+    height: 250px;
+  }
+
+  .card {
+    height: 180px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+
+}
