@@ -59,6 +59,7 @@ li {
   align-items: center;
 }
 .kicksLogo {
+  padding-left: 20px;
   width: 120px;
   object-fit: contain;
 }
@@ -89,11 +90,13 @@ li {
 }
 
 .shopNowMain {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  height: 400px;
+  /* height: 413.313px; */
   background-color: aquamarine;
+}
+
+.shopNowMain img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .containerShop {
@@ -150,6 +153,12 @@ li {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.sponsorList img {
+  width: 90px;
+  object-fit: contain;
 }
 
 .cardMain {
